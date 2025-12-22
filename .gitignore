@@ -1,4 +1,4 @@
-# Visual Studio 2015 user specific files
+# Visual Studio
 .vs/
 
 # Compiled Object files
@@ -47,7 +47,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/**/Binaries/*
+Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -68,7 +68,24 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/**/Intermediate/*
+Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Rider IDE (JetBrains)
+.idea/
+*.sln.iml
+
+# Rider plugin for UE (auto-installed per project)
+Plugins/Developer/RiderLink/*
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Windows
+Desktop.ini
